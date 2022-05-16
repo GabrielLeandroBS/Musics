@@ -6,8 +6,12 @@ export const Container = styled.div`
   display: flex;
   height: 100vh;
   justify-content: space-between;
-  padding: 4em;
+  padding: 1em;
   width: 100%;
+
+  @media screen and (min-width: 1024px) {
+    padding: 4em;
+  }
 `;
 
 export const Wrapper = styled.div`

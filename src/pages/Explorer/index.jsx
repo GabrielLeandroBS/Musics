@@ -80,17 +80,17 @@ export default function Explorer() {
           <WrapperButton>
             <Button
               type={"primary"}
-              text="Songs"
-              alt="Link to songs"
-              title="Songs"
-              href="songs"
+              text="Albums"
+              alt="Link to albums"
+              title="Albums"
+              href="albums"
             />
             <Button
               type={"default"}
-              text="Follow"
-              alt="Link to follow"
-              title="Follow"
-              href="songs"
+              text="Anything"
+              alt="Link to anything"
+              title="Anything"
+              href="/"
             />
           </WrapperButton>
         </Details>

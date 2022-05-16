@@ -31,8 +31,8 @@ export default function ListAlbums() {
     <Container>
       <Wrapper>
         {!loading && albums.length > 0 ? (
-          albums.map(({ thumbnail, name }) => (
-            <figure>
+          albums.map(({ thumbnail, name, id }) => (
+            <figure key={id}>
               <img src={thumbnail} alt="name" title={`Album ${name}`} />
             </figure>
           ))

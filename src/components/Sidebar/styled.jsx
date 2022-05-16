@@ -11,7 +11,7 @@ export const Container = styled.aside`
   width: 100%;
 
   @media screen and (min-width: 1024px) {
-   margin-bottom:0;
+    margin-bottom: 0;
   }
 `;
 
@@ -47,5 +47,17 @@ export const Item = styled.li`
     &.active {
       color: #5f5f5f;
     }
+  }
+`;
+
+export const Footer = styled.footer`
+  width: 100%;
+
+  p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    width: 100%;
   }
 `;

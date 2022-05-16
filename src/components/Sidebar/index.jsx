@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import { Container, List, Item, Navigation } from "./styled";
+import { Container, List, Item, Navigation, Footer } from "./styled";
 import getImages from "../../assets";
 import Header from "../Header";
 
@@ -40,6 +40,9 @@ export default function Sidebar() {
           ))}
         </List>
       </Navigation>
+      <Footer>
+        <p>Gabriel Leandro</p>
+      </Footer>
     </Container>
   );
 }

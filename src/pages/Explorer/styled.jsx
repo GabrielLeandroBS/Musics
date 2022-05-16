@@ -23,11 +23,15 @@ export const Title = styled.h2`
 
 export const Banner = styled.section`
   border-radius: 3rem;
-  height: 16rem;
   margin-block: 2rem;
   overflow: hidden;
   position: relative;
   width: 100%;
+
+  @media screen and (min-width: 1024px){
+    height: 16rem;
+
+  }
 
   &:hover {
     img {
@@ -99,6 +103,7 @@ export const WrapperButton = styled.div`
   display: flex;
   gap: 2rem;
   justify-content: space-between;
+  flex-wrap: wrap;
 `;
 
 export const Wrapper = styled.div`

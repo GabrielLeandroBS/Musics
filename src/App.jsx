@@ -11,7 +11,7 @@ export default function App() {
         <Route index element={<Explorer />} />
         <Route path="explorer" element={<Explorer />} />
         <Route path="albums" element={<Albums />} />
-        {/* <Route path="*" element={<NoMatch />} /> */}
+        <Route path="*" element={<Albums />} />
       </Route>
     </Routes>
   );
