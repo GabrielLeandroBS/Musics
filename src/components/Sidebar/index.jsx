@@ -40,7 +40,6 @@ export default function Sidebar() {
           ))}
         </List>
       </Navigation>
-      <div>bullters</div>
     </Container>
   );
 }
