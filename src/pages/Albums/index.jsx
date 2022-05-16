@@ -63,7 +63,7 @@ export default function Albums() {
     <Container>
       <Wrapper>
         <Content>
-          <Topic>Best of the best</Topic>
+          <Topic>Best of the best &#127942;</Topic>
           <Title>Tranding Albums</Title>
           <Search placeholder="Search" setQuery={setQuery} submit={getAlbums} />
           <Slider />

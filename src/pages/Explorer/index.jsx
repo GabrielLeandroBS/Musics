@@ -64,7 +64,7 @@ export default function Explorer() {
 
   return (
     <Container>
-      <Topic>What's hot</Topic>
+      <Topic>What's hot &#128293;</Topic>
       <Title>Trending</Title>
       <Banner>
         <Figure>
