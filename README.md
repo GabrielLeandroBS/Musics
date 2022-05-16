@@ -2,8 +2,7 @@
 # Supliu - Frontend teste
 
 Olá, esse repositório contém o código da plataforma desenvolvida
-para o teste de frontend júnior da empresa Supliu.
-
+para o teste de frontend júnior da empresa Supliu, para se integrar com relação ao projeto leia abaixo as necessidades de dependências e tecnologias utilizadas para construção e finalização do teste. 
 
 
 ## Partes visuais
@@ -40,10 +39,6 @@ Inicie o servidor
  - [Styled Componentes](https://styled-components.com/)
  - [Swiper](https://swiperjs.com/swiper-api)
  - [MockApi](https://mockapi.io/)
-
-
-
- 
 
 
 ## Funcionalidades
