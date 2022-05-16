@@ -10,8 +10,6 @@ para o teste de frontend júnior da empresa Supliu.
 
 ![Explore](https://i.ibb.co/bJ4b841/suppli.png)
 
-![Album](https://i.ibb.co/qR991dX/suppli-album.png)
-
 
 ## Rodando localmente
 
