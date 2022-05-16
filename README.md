@@ -32,7 +32,7 @@ Inicie o servidor
 
 
 ## Tecnologias utilizadas 
-
+ - [Vite](https://vitejs.dev/)
  - [React JS](https://reactjs.org/)
  - [React Router](https://v5.reactrouter.com/web/example/no-match)
  - [React Bootstrap (modules)](https://react-bootstrap.github.io/)
