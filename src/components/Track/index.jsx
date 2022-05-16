@@ -18,7 +18,6 @@ export default function Track({
           <Subtitle>{nameArtist}</Subtitle>
         </section>
       </Wrapper>
-
       <Time>{time}</Time>
     </Container>
   );

@@ -100,7 +100,6 @@ export default function Track({ getAlbums: listAlbums }) {
                   defaultOptions
                 />
               </Label>
-
               <Label aria-labelledby="1" htmlFor="1">
                 Song title
                 <Input

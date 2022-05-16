@@ -67,17 +67,13 @@ export default function Albums() {
           <Title>Tranding Albums</Title>
           <Search placeholder="Search" setQuery={setQuery} submit={getAlbums} />
           <Slider />
-
           <ListAlbums />
         </Content>
         <Aside>
           <WrapperAccordion>
             <Accordion>
               <Subtitle>Albums</Subtitle>
-              {console.log(loading)}
-
               {loading && <Skeleton count={2} height={50} />}
-
               {albums.length > 0 &&
                 !loading &&
                 albums.map(({ name, id, tracks }) => (
@@ -101,7 +97,6 @@ export default function Albums() {
                     </Accordion.Body>
                   </Accordion.Item>
                 ))}
-
               {!loading && query && albums.length === 0 && (
                 <Topic>No albums found</Topic>
               )}

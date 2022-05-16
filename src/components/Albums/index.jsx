@@ -27,8 +27,6 @@ export default function ListAlbums() {
     })();
   }, []);
 
-  console.log(albums);
-
   return (
     <Container>
       <Wrapper>

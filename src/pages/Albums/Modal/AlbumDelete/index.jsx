@@ -87,7 +87,6 @@ export default function AlbumDelete({ getAlbums: deleteAlbums }) {
                   defaultOptions
                 />
               </Label>
-
               <Submit
                 type="button"
                 value={"Remove a album"}
