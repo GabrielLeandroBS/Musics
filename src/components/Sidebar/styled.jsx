@@ -21,6 +21,8 @@ export const List = styled.ul`
   display: flex;
   gap: 1.4rem;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 
   @media screen and (min-width: 1024px) {
     flex-direction: column;
@@ -53,11 +55,16 @@ export const Item = styled.li`
 export const Footer = styled.footer`
   width: 100%;
 
-  p {
+  a {
+    align-items: center;
+    color: #000000;
+    display: flex;
     font-size: 0.8rem;
     font-weight: 600;
+    justify-content: center;
     margin: 0;
     text-align: center;
+    text-decoration: none;
     width: 100%;
   }
 `;

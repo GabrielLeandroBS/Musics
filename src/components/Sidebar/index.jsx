@@ -41,7 +41,7 @@ export default function Sidebar() {
         </List>
       </Navigation>
       <Footer>
-        <p>Gabriel Leandro</p>
+        <a href="https://www.linkedin.com/in/gabrielleandrob/" target={"_blank"} rel="noopener" alt="Link to view linkedin" title="View linkedin">&#128512; Gabriel Leandro</a>
       </Footer>
     </Container>
   );
