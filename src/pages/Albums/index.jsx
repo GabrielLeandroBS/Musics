@@ -43,7 +43,7 @@ export default function Albums() {
     }
   }
 
-  const secondsToTime = (e) => {
+  const secondsToMinutes = (e) => {
     const minutes = Math.floor((e % 3600) / 60)
       .toString()
       .padStart(2, "0");
@@ -91,7 +91,7 @@ export default function Albums() {
                               <h2>{title}</h2>
                             </DetailMusic>
                           </AccordionWrapper>
-                          <p>{secondsToTime(duration)}</p>
+                          <p>{secondsToMinutes(duration)}</p>
                         </AccordionContainer>
                       ))}
                     </Accordion.Body>
