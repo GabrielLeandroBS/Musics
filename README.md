@@ -52,5 +52,5 @@ Inicie o servidor
 
 ## Ambiente de homologação
 
- - [Vercel](https://supliu.vercel.app/)
+ - [Vercel](https://music-blond.vercel.app)
 
