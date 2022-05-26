@@ -1,8 +1,7 @@
 
-# Supliu - Frontend teste
+# Supliu - Frontend
 
-Olá, esse repositório contém o código da plataforma desenvolvida
-para o teste de frontend júnior da empresa Supliu, para se integrar com relação ao projeto leia abaixo as necessidades de dependências e tecnologias utilizadas para construção e finalização do teste. 
+Olá, esse repositório contém o código da plataforma desenvolvida para gerenciamentos de albums e tracks, para se integrar com relação ao projeto leia abaixo as necessidades de dependências e tecnologias utilizadas para construção e finalização do teste. 
 
 
 ## Partes visuais
