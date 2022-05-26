@@ -14,7 +14,7 @@ Olá, esse repositório contém o código da plataforma desenvolvida para gerenc
 Clone o projeto
 
 ```bash
-  git clone https://github.com/GabrielLeandroBS/Supliu.git
+  git clone https://github.com/GabrielLeandroBS/Music.git
 ```
 
 Instale as dependências
