@@ -1,5 +1,5 @@
 
-# Music - Frontend Crud
+# Musics
 
 Olá, esse repositório contém o código da plataforma desenvolvida para gerenciamentos de albums e tracks, para se integrar com relação ao projeto leia abaixo as necessidades de dependências e tecnologias utilizadas para construção da plataforma. 
 
