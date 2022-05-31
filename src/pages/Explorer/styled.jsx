@@ -27,9 +27,11 @@ export const Banner = styled.section`
   overflow: hidden;
   position: relative;
   width: 100%;
+  max-height: 25rem;
 
   @media screen and (min-width: 1024px) {
     height: 16rem;
+    max-height: 100%;
   }
 
   &:hover {
