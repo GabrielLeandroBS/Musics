@@ -11,6 +11,7 @@ export const Container = styled.section`
   overflow: hidden;
   position: relative;
   width: 100%;
+  
 `;
 
 export const Wrapper = styled.div`

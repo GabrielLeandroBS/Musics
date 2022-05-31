@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-block: 2rem;
+  display: none;
+
+  @media screen and (min-width: 1024px){
+    display: block;
+  }
 `;
 
 export const Wrapper = styled.div`

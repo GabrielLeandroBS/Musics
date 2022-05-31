@@ -6,7 +6,7 @@ export const Container = styled.aside`
   flex-direction: column;
   gap: 4rem;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   padding-inline: 2rem;
   width: 100%;
 
@@ -54,6 +54,11 @@ export const Item = styled.li`
 
 export const Footer = styled.footer`
   width: 100%;
+  display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
 
   a {
     align-items: center;
