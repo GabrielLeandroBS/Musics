@@ -27,7 +27,10 @@ export const Banner = styled.section`
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 16rem;
+
+  @media screen and (min-width: 1024px) {
+    height: 16rem;
+  }
 
   &:hover {
     img {
