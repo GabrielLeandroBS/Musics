@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
   bottom: 0;
+  bottom: 1.5rem;
+  display: none;
   max-width: 100%;
   position: sticky;
-  bottom: 1.5rem;
+  width: 100%;
   z-index: 5;
 
   @media screen and (min-width: 1024px) {
+    display: block;
     position: absolute;
   }
 `;
