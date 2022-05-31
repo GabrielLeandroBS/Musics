@@ -5,7 +5,7 @@ export const ApiMock = axios.create({
 })
 
 export const ApiMockAlbum = axios.create({
-    baseURL: 'https://62817d4aed9edf7bd87526fd.mockapi.io/api/v1/'
+    baseURL: 'https://62960051810c00c1cb6d12b7.mockapi.io/api/v1/'
 })
 
 export const ApiSupliu = axios.create({
