@@ -56,5 +56,7 @@ Inicie o servidor
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
 
