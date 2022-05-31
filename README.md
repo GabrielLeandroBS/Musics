@@ -52,11 +52,11 @@ Inicie o servidor
 
 ## Ambiente de homologação
 
- - [Vercel](https://music-crud.vercel.app/)
+[Vercel](https://music-crud.vercel.app/)
 
 ## Licença
 
-- [MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 
