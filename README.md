@@ -1,7 +1,7 @@
 
-# Music - Frontend
+# Musics
 
-Olá, esse repositório contém o código da plataforma desenvolvida para gerenciamentos de albums e tracks, para se integrar com relação ao projeto leia abaixo as necessidades de dependências e tecnologias utilizadas para construção e finalização do teste. 
+Olá, esse repositório contém o código da plataforma desenvolvida para gerenciamentos de albums e tracks, para se integrar com relação ao projeto leia abaixo as necessidades de dependências e tecnologias utilizadas para construção da plataforma. 
 
 
 ## Partes visuais
@@ -42,15 +42,21 @@ Inicie o servidor
 
 ## Funcionalidades
 
-- Multiplataforma
-- Dados em tempo real
-- Slider para anúncios
-- Listagem de albums e tracks
 - Criação e remoção de albums
 - Criação e remoção de tracks
+- Dados em tempo real
+- Listagem de albums e tracks
+- Multiplataforma
+- Slider para anúncios e descontos
 
 
 ## Ambiente de homologação
 
- - [Vercel](https://music-crud.vercel.app/)
+[Vercel](https://music-crud.vercel.app/)
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
 
