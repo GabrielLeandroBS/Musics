@@ -54,3 +54,7 @@ Inicie o servidor
 
  - [Vercel](https://music-crud.vercel.app/)
 
+## Licença
+
+Este projeto está licenciado sob a Licença MIT
+
