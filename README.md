@@ -42,12 +42,12 @@ Inicie o servidor
 
 ## Funcionalidades
 
-- Multiplataforma
-- Dados em tempo real
-- Slider para anúncios
-- Listagem de albums e tracks
 - Criação e remoção de albums
 - Criação e remoção de tracks
+- Dados em tempo real
+- Listagem de albums e tracks
+- Multiplataforma
+- Slider para anúncios e descontos
 
 
 ## Ambiente de homologação
