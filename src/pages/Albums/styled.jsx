@@ -44,7 +44,7 @@ export const Wrapper = styled.div`
 
 export const WrapperAccordion = styled.div`
   max-height: 62vh;
-  min-height: 6rem;
+  min-height: 10rem;
   overflow: auto;
   padding-right: 1rem;
 `;
