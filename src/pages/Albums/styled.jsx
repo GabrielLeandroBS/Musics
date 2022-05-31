@@ -30,10 +30,11 @@ export const Container = styled.main`
 `;
 
 export const Wrapper = styled.div`
-  display: grid;
+  display: flex;
   gap: 3rem;
   height: 100%;
   justify-items: center;
+  flex-direction: column;
 
   @media screen and (min-width: 1024px) {
     overflow: hidden;
@@ -43,6 +44,7 @@ export const Wrapper = styled.div`
 
 export const WrapperAccordion = styled.div`
   max-height: 62vh;
+  min-height: 6rem;
   overflow: auto;
   padding-right: 1rem;
 `;
