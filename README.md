@@ -56,7 +56,7 @@ Inicie o servidor
 
 ## Licença
 
-[MIT](https://choosealicense.com/licenses/mit/)
+- [MIT](https://choosealicense.com/licenses/mit/)
 
 
 
