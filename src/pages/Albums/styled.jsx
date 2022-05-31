@@ -39,6 +39,7 @@ export const Wrapper = styled.div`
   @media screen and (min-width: 1024px) {
     overflow: hidden;
     display: flex;
+    flex-direction: row;
   }
 `;
 
