@@ -55,10 +55,15 @@ export const Content = styled.div`
 `;
 
 export const Aside = styled.aside`
+  overflow-x: hidden;
+  overflow-y: auto;
   width: 100%;
+
   @media screen and (min-width: 1024px) {
+    overflow-y: hidden;
     width: 40%;
   }
+
   position: relative;
 `;
 
