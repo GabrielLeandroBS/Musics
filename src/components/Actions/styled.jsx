@@ -6,7 +6,7 @@ export const Container = styled.div`
   max-width: 100%;
   position: sticky;
   bottom: 1.5rem;
-  z-index: 55;
+  z-index: 5;
 
   @media screen and (min-width: 1024px) {
     position: absolute;
