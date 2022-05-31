@@ -1,5 +1,6 @@
 import "react-loading-skeleton/dist/skeleton.css";
 import "swiper/css";
+import { Autoplay, EffectFade } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
@@ -37,7 +38,7 @@ export default function Explorer() {
       const results = await getAllTracks();
       setTracks(results);
     } catch (error) {
-      throw new Error(error)
+      throw new Error(error);
     } finally {
       setLoading(false);
     }
@@ -49,7 +50,7 @@ export default function Explorer() {
       const results = await getAllAdverts();
       setAdverts(results);
     } catch (error) {
-      throw new Error(error)
+      throw new Error(error);
     } finally {
       setLoading(false);
     }
@@ -116,7 +117,16 @@ export default function Explorer() {
         </Trends>
         <Adverts>
           {!loading && adverts.length > 0 ? (
-            <Swiper slidesPerView={1}>
+            <Swiper
+              slidesPerView={1}
+              modules={[Autoplay, EffectFade]}
+              effect={"fade"}
+              loop={true}
+              autoplay={{
+                delay: 5000,
+                disableOnInteraction: false,
+              }}
+            >
               {adverts.map(({ image, id }) => (
                 <SwiperSlide key={id}>
                   <Announcement key={id} image={image} />
@@ -124,7 +134,7 @@ export default function Explorer() {
               ))}
             </Swiper>
           ) : (
-            <Skeleton count={1} height={260}  />
+            <Skeleton count={1} height={260} />
           )}
         </Adverts>
       </Wrapper>
