@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     transition: all .3s linear;
 
     @media screen and (min-width: 1024px){
-      width: .5rem;
+      width: .1rem;
     }
   }
 
@@ -20,12 +20,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #535353;
+    background: #535353c0;
     border-radius: 2rem;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #292929;
+    background: #292929da;
   }
  }
 
